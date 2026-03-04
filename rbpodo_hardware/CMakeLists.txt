@@ -15,6 +15,7 @@ find_package(ament_cmake_ros REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(hardware_interface REQUIRED)
+find_package(pal_statistics REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(rbpodo REQUIRED)
 find_package(rbpodo_msgs REQUIRED)
@@ -32,6 +33,7 @@ ament_target_dependencies(
   rclcpp
   rclcpp_action
   hardware_interface
+  pal_statistics
   pluginlib
   rbpodo_msgs
 )

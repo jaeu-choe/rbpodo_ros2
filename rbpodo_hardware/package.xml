@@ -13,6 +13,7 @@
   <depend>rclcpp</depend>
   <depend>rclcpp_action</depend>
   <depend>hardware_interface</depend>
+  <depend>pal_statistics</depend>
   <depend>pluginlib</depend>
   <depend>rbpodo_msgs</depend>
 
